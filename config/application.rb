@@ -11,6 +11,5 @@ module FitnessApp
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 5.1
 
-    end
   end
 end
