@@ -1,4 +1,3 @@
 class Strength < ApplicationRecord
-	# belongs_to :routine
-	has_many :exercises, #through: :schedule
+	has_many :exercises
 end
