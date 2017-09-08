@@ -4,17 +4,6 @@ Rails.application.routes.draw do
   get '/muscle_groups', to: 'muscle_groups#index'
   get '/arm', to: 'muscle_groups#arm'
 
-  resources :routines, only: [] do 
-  	resources :schedules, only: [:index, :show] do 
-  		resources :exercises, only: [:index]
-  	end
-  end
-
-  resources :routines, only: [] do
-  	resources :muscle_groups, only: [:index, :show] do
-  		resources :execises, only: [:index]
-  	end
-  end
   
 end
 
