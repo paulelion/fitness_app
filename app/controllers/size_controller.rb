@@ -1,5 +1,5 @@
 class SizeController < ApplicationController
-       def index
-                @size
+    def index
+        @size
     end
 end
