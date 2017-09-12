@@ -1,3 +1,167 @@
 // Place all the styles related to the MuscleGroups controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+ul#muscle > li > a {
+	text-decoration: none;
+	color: black;
+}
+
+#individualmuscleexercises {
+	text-align: center;
+	font-family: futura;
+}
+
+#muscle {
+	list-style-type: none;
+	float: left;
+	position: relative;
+	left: 200px;
+	top: 75px;
+	font-family: futura;
+	font-size: 20px;
+}
+
+.man {
+	float: right;
+	width: 50%;
+	margin-right: 200px;
+	margin-top: -20px;
+}
+
+.shoulders1 {
+	position: absolute;
+    left: 545px;
+    top: 195px;
+}
+
+.shoulders2 {
+	position: absolute;
+    left: 673px;
+    top: 195px;
+}
+
+.shoulders3 {
+	position: absolute;
+    left: 802px;
+    top: 195px;
+}
+
+.shoulders4 {
+	position: absolute;
+    left: 922px;
+    top: 195px;
+}
+
+.chest1 {
+	position: absolute;
+    left: 843px;
+    top: 207px;
+}
+
+.chest2 {
+	position: absolute;
+    left: 898px;
+    top: 207px;
+}
+
+.arms1 {
+	position: absolute;
+    left: 525px;
+    top: 245px;
+}
+
+.arms2 {
+	position: absolute;
+    left: 695px;
+    top: 245px;
+}
+
+.arms3 {
+	position: absolute;
+    left: 780px;
+    top: 245px;
+}
+
+.arms4 {
+	position: absolute;
+    left: 935px;
+    top: 255px;
+}
+
+.abs1 {
+	position: absolute;
+    left: 878px;
+    top: 300px;
+}
+
+#abs:hover > #abs1 { 
+	color: white; 
+}
+
+
+.back1 {
+	position: absolute;
+    left: 605px;
+    top: 200px;
+}
+
+.back2 {
+	position: absolute;
+    left: 608px;
+    top: 300px;
+}
+
+.legs1 {
+	position: absolute;
+    left: 575px;
+    top: 445px;
+}
+
+.legs2 {
+	position: absolute;
+	left: 650px;
+    top: 445px;
+}
+
+.legs3 {
+	position: absolute;
+	left: 833px;
+    top: 445px;
+}
+
+.legs4 {
+	position: absolute;
+	left: 908px;
+    top: 445px;
+}
+
+.cardio1 {
+	position: absolute;
+	left: 565px;
+    top: 645px;
+}
+
+.cardio2 {
+	position: absolute;
+	left: 650px;
+    top: 645px;
+}
+
+.cardio3 {
+	position: absolute;
+	left: 815px;
+    top: 640px;
+}
+
+.cardio4 {
+	position: absolute;
+	left: 910px;
+    top: 635px;
+}
+
+.active {
+  color: white;
+  text-shadow: 0 0 20px white;
+}

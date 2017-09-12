@@ -1,9 +1,56 @@
-<ul id="muscle">
-    <li><%= link_to 'Arm', arm_path %></li>
-    <li><%= link_to 'Shoulder', shoulder_path %></li>
-    <li><%= link_to 'Chest', chest_path %></li>
-    <li><%= link_to 'ABS', abs_path %></li>
-    <li><%= link_to 'Back',back_path %></li>
-    <li><%= link_to 'Leg', leg_path %></li>
-    <li><%= link_to 'Cardio', cardio_path %></li>
-    </ul>
+<h1 id="individualmuscleexercises">Individual Muscle Exercises</h1>
+
+	<ul id="muscle">
+	    <li id="arms"><%= link_to 'Arms', arm_path, { onmouseover: "handleMouseOver('arms0')", onmouseout: "handleMouseOut('arms0')" } %></li><br>
+
+	    <li id="shoulders"><%= link_to 'Shoulders', shoulder_path, { onmouseover: "handleMouseOver('shoulders0')", onmouseout: "handleMouseOut('shoulders0')" } %></li><br>
+
+	    <li id="chest"><%= link_to 'Chest', chest_path, { onmouseover: "handleMouseOver('chest0')", onmouseout: "handleMouseOut('chest0')" } %></li><br>
+
+	    <li id="abs"><%= link_to 'Abs', abs_path, { onmouseover: "handleMouseOver('abs0')", onmouseout: "handleMouseOut('abs0')" } %></li><br>
+
+	    <li id="back"><%= link_to 'Back', back_path, { onmouseover: "handleMouseOver('back0')", onmouseout: "handleMouseOut('back0')" } %></li><br>
+
+	    <li id="legs"><%= link_to 'Legs', leg_path, { onmouseover: "handleMouseOver('legs0')", onmouseout: "handleMouseOut('legs0')" } %></li><br>
+
+	    <li id="cardio"><%= link_to 'Cardio', cardio_path, { onmouseover: "handleMouseOver('cardio0')", onmouseout: "handleMouseOut('cardio0')" } %></li><br>
+	</ul>
+
+
+	<div id="muscleman">
+		<%= image_tag image_path("musclegroups.png"), class: "man" %>
+	</div>
+
+
+	<div id="touchpoints">
+		<i id="shoulders0" class="fa fa-circle fa-lg shoulders1" aria-hidden="true"></i>
+		<i id="shoulders0" class="fa fa-circle fa-lg shoulders2" aria-hidden="true"></i>
+		<i id="shoulders0" class="fa fa-circle fa-lg shoulders3" aria-hidden="true"></i>
+		<i id="shoulders0" class="fa fa-circle fa-lg shoulders4" aria-hidden="true"></i>
+
+		<i id="chest0" class="fa fa-circle fa-lg chest1" aria-hidden="true"></i>
+		<i id="chest0" class="fa fa-circle fa-lg chest2" aria-hidden="true"></i>
+
+		<i id="arms0" class="fa fa-circle fa-lg arms1" aria-hidden="true"></i>
+		<i id="arms0" class="fa fa-circle fa-lg arms2" aria-hidden="true"></i>
+		<i id="arms0" class="fa fa-circle fa-lg arms3" aria-hidden="true"></i>
+		<i id="arms0" class="fa fa-circle fa-lg arms4" aria-hidden="true"></i>
+
+		<i id="abs0" class="fa fa-circle fa-lg abs1" aria-hidden="true"></i>
+		
+		<i id="back0" class="fa fa-circle fa-lg back1" aria-hidden="true"></i>
+		<i id="back0" class="fa fa-circle fa-lg back2" aria-hidden="true"></i>
+		
+		<i id="legs0" class="fa fa-circle fa-lg legs1" aria-hidden="true"></i>
+		<i id="legs0" class="fa fa-circle fa-lg legs2" aria-hidden="true"></i>
+		<i id="legs0" class="fa fa-circle fa-lg legs3" aria-hidden="true"></i>
+		<i id="legs0" class="fa fa-circle fa-lg legs4" aria-hidden="true"></i>
+
+		<i id="cardio0" class="fa fa-circle fa-lg cardio1" aria-hidden="true"></i>
+		<i id="cardio0" class="fa fa-circle fa-lg cardio2" aria-hidden="true"></i>
+		<i id="cardio0" class="fa fa-circle fa-lg cardio3" aria-hidden="true"></i>
+		<i id="cardio0" class="fa fa-circle fa-lg cardio4" aria-hidden="true"></i>
+	</div>
+
+
+
