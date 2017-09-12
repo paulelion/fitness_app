@@ -2,21 +2,15 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-html {
-	background-image: url("background-weights.jpg");
-	background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-}
 
 ul#muscle > li > a {
 	text-decoration: none;
+	color: black;
 }
 
 #individualmuscleexercises {
 	text-align: center;
 	font-family: futura;
-	color: white;
 }
 
 #muscle {
@@ -27,7 +21,6 @@ ul#muscle > li > a {
 	top: 75px;
 	font-family: futura;
 	font-size: 20px;
-	color: white;
 }
 
 .man {
