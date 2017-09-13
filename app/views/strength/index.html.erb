@@ -1,9 +1,24 @@
-<ul id="muscle">
-    <li><%= link_to 'Monday', strength_monday_path %></li>
-    <li><%= link_to 'Tuesday', strength_tuesday_path %></li>
-    <li><%= link_to 'Wednesday', strength_wednesday_path %></li>
-    <li><%= link_to 'Thursday', strength_thursday_path %></li>
-    <li><%= link_to 'Friday',strength_friday_path %></li>
-    <li><%= link_to 'Saturday', strength_saturday_path %></li>
-    <li><%= link_to 'Sunday', strength_sunday_path %></li>
-</ul>
+<table class="paleBlueRows">
+	<thead>
+		<tr>
+			<th><%= link_to 'Sunday', strength_sunday_path %></th>
+			<th><%= link_to 'Monday', strength_monday_path %></th>
+			<th><%= link_to 'Tuesday', strength_tuesday_path %></th>
+			<th><%= link_to 'Wednesday', strength_wednesday_path %></th>
+			<th><%= link_to 'Thursday', strength_thursday_path %></th>
+			<th><%= link_to 'Friday',strength_friday_path %></th>
+			<th><%= link_to 'Saturday', strength_saturday_path %></th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><%= link_to 'Rest or Cardio', strength_sunday_path %></td>
+			<td><%= link_to 'Chest, Shoulders, and Triceps', strength_monday_path %></td>
+			<td><%= link_to 'Rest or Cardio', strength_tuesday_path %></td>
+			<td><%= link_to 'Back, Biceps, and Abs', strength_wednesday_path %></td>
+			<td><%= link_to 'Rest or Cardio', strength_thursday_path %></td>
+			<td><%= link_to 'Legs',strength_friday_path %></td>
+			<td><%= link_to 'Rest or Cardio', strength_saturday_path %></td>
+		</tr>
+	</tbody>
+</table>
