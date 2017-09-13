@@ -2,14 +2,14 @@
 function handleMouseOver(className) {
 	let divs = document.querySelectorAll(className);
 	for (i = 0; i < divs.length; i++) { 
-	li.classList.add('active')
+	divs.classList.add('active')
 	}
 }
 
 function handleMouseOut(className) {
 	let divs = document.querySelectorAll(className);
 	for (i = 0; i < divs.length; i++) { 
-	li.classList.remove('active')
+	divs.classList.remove('active')
 	}
 }
 
