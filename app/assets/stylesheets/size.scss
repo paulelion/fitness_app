@@ -1,3 +1,58 @@
+<<<<<<< HEAD
 // Place all the styles related to the Size controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+=======
+/* Calendar Tables */
+
+table.paleBlueRows {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  border: 1px solid #A699FF;
+  background-color: #EEEEEE;
+  width: 1200px;
+  height: 250px;
+  text-align: center;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+table.paleBlueRows td, table.paleBlueRows th {
+  border: 1px solid #FFFFFF;
+  padding: 3px 2px;
+  width: 300px;
+}
+
+table.paleBlueRows th a {
+	color: white;
+}
+
+table.paleBlueRows tbody td {
+  font-size: 13px;
+}
+
+table.paleBlueRows tr:nth-child(even) {
+  background: #D0E4F5;
+}
+
+table.paleBlueRows thead {
+  background: #0B6FA4;
+  border-bottom: 5px solid #FFFFFF;
+}
+
+table.paleBlueRows thead th {
+  font-size: 17px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+  border-left: 2px solid #FFFFFF;
+}
+
+table.paleBlueRows thead th:first-child {
+  border-left: none;
+}
+
+table.paleBlueRows tfoot td {
+  font-size: 14px;
+}
+>>>>>>> master
