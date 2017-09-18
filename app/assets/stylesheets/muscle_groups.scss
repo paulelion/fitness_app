@@ -1,3 +1,20 @@
+/*
+
+how to make muscle man image not be larger than the div that holds it
+
+div#muscleman {
+    background-image: url(/assets/musclegroups-5a4f664….png);
+    max-width: 300px;
+    margin: 0 auto;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: contain;
+}
+
+*/
+
+
 /* Muscle Groups */
 
 ul#muscle > li > a {
